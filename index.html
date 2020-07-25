@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="form form--add">
+            <h1 class="form__title">Add element into DOM</h1>
+            <input type="text" class="form__input" name="node" placeholder="element HTML(e.g. div)" required>
+            <input type="text" class="form__input" name="text" placeholder="text in element HTML">
+            <input type="text" class="form__input" name="attr" placeholder="attribute">
+            <input type="text" class="form__input" name="value" placeholder="attribute value">
+            <button class="form__button">Add element</button>
+        </form>
+        <form class="form form--search">
+            <h1 class="form__title">Search DOM</h1>
+            <input type="text" class="form__input" name="searching-element" placeholder="Find the element (e.g. div)"
+                required>
+            <input type="submit" class="form__button" value="find and show info of HTML element">
+        </form>
+    </div>
+    <div class="result"></div>
+    <div class="content"></div>
+    <footer class="footer">Footer</footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
